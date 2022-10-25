@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: rgb(128, 12, 236);
+
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+#container{
+    width: 200px;
+}
+#submit{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(223, 162, 212);
+    margin-top: 10px;
+    line-height: 30px;
+    user-select: none;
+}
+#submit:hover{
+    background-color: rgb(240, 169, 122);
+
+}
